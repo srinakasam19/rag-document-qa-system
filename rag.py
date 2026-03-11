@@ -1,6 +1,6 @@
 # rag.py
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCsWlFaHicGQWQvQFb-TY8fo2JpalOd1ME"
+os.environ["GOOGLE_API_KEY"] = "......................."
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from query import query_faiss_db
@@ -49,4 +49,5 @@ def rag_query(question: str):
 
 
 if __name__ == "__main__":
+
     rag_query("leave policy")
